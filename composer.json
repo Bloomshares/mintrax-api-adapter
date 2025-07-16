@@ -1,0 +1,14 @@
+{
+  "name": "bloomshares/mintrax-api-adapter",
+  "description": "Public API adapter for Mintrax exchange (TradexPro-based) to support CoinGecko and CoinMarketCap integration.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mintrax\\": "src/"
+    }
+  }
+}
