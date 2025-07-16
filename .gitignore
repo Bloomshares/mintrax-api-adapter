@@ -1,0 +1,14 @@
+
+# Ignore PHP artifacts
+*.log
+*.cache
+vendor/
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.tmp
